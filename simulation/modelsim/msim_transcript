@@ -1,0 +1,304 @@
+# Reading pref.tcl
+# do STOPWATCH_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/STOPWATCH.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:56 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/STOPWATCH.sv 
+# -- Compiling module STOPWATCH
+# 
+# Top level modules:
+# 	STOPWATCH
+# End time: 19:10:56 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/UPTO9COUNT.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:56 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/UPTO9COUNT.sv 
+# -- Compiling module logicblockof9d1
+# -- Compiling module logicblockof9d2
+# -- Compiling module logicblockof9d3
+# -- Compiling module UPTO9C
+# 
+# Top level modules:
+# 	UPTO9C
+# End time: 19:10:56 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/SerialLoad5.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:57 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/SerialLoad5.sv 
+# -- Compiling module serielload5
+# 
+# Top level modules:
+# 	serielload5
+# End time: 19:10:57 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/MIN_SEC_COUNTER.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:57 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/MIN_SEC_COUNTER.sv 
+# -- Compiling module MIN_SEC_COUNTER
+# 
+# Top level modules:
+# 	MIN_SEC_COUNTER
+# End time: 19:10:57 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/GATTEDCLOCKS.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:57 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/GATTEDCLOCKS.sv 
+# -- Compiling module ANDGCLK
+# -- Compiling module ORGCLK
+# 
+# Top level modules:
+# 	ANDGCLK
+# 	ORGCLK
+# End time: 19:10:57 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/D_flip_flop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:57 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/D_flip_flop.sv 
+# -- Compiling module d_ff
+# 
+# Top level modules:
+# 	d_ff
+# End time: 19:10:57 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/Disp_hex_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:57 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/Disp_hex_mux.sv 
+# -- Compiling module disp_hex_mux
+# 
+# Top level modules:
+# 	disp_hex_mux
+# End time: 19:10:57 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/ToDisplay.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:57 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/ToDisplay.sv 
+# -- Compiling module mux2x1
+# -- Compiling module Todisplay
+# 
+# Top level modules:
+# 	Todisplay
+# End time: 19:10:57 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/MAINFSM.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:57 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/MAINFSM.sv 
+# -- Compiling module MAINFSM
+# -- Compiling module clkdiv
+# 
+# Top level modules:
+# 	MAINFSM
+# 	clkdiv
+# End time: 19:10:57 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/try/STOPWATCH {D:/try/STOPWATCH/UPTO5C.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:57 on Jan 06,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/try/STOPWATCH" D:/try/STOPWATCH/UPTO5C.sv 
+# -- Compiling module logicblockof5d1
+# -- Compiling module logicblockof5d2
+# -- Compiling module UPTO5C
+# 
+# Top level modules:
+# 	UPTO5C
+# End time: 19:10:57 on Jan 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Load canceled
+vlog -reportprogress 300 -work work D:/try/STOPWATCH/D_flip_flop.sv D:/try/STOPWATCH/Disp_hex_mux.sv D:/try/STOPWATCH/GATTEDCLOCKS.sv D:/try/STOPWATCH/MAINFSM.sv D:/try/STOPWATCH/MIN_SEC_COUNTER.sv D:/try/STOPWATCH/modulesinstopwatch.sv D:/try/STOPWATCH/SerialLoad5.sv D:/try/STOPWATCH/STOPWATCH.sv D:/try/STOPWATCH/STOPWATCH_TB.sv D:/try/STOPWATCH/ToDisplay.sv D:/try/STOPWATCH/UPTO5C.sv D:/try/STOPWATCH/UPTO5COUNT.SV D:/try/STOPWATCH/UPTO9COUNT.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:12:20 on Jan 06,2022
+# vlog -reportprogress 300 -work work D:/try/STOPWATCH/D_flip_flop.sv D:/try/STOPWATCH/Disp_hex_mux.sv D:/try/STOPWATCH/GATTEDCLOCKS.sv D:/try/STOPWATCH/MAINFSM.sv D:/try/STOPWATCH/MIN_SEC_COUNTER.sv D:/try/STOPWATCH/modulesinstopwatch.sv D:/try/STOPWATCH/SerialLoad5.sv D:/try/STOPWATCH/STOPWATCH.sv D:/try/STOPWATCH/STOPWATCH_TB.sv D:/try/STOPWATCH/ToDisplay.sv D:/try/STOPWATCH/UPTO5C.sv D:/try/STOPWATCH/UPTO5COUNT.SV D:/try/STOPWATCH/UPTO9COUNT.sv 
+# -- Compiling module d_ff
+# -- Compiling module disp_hex_mux
+# -- Compiling module ANDGCLK
+# -- Compiling module ORGCLK
+# -- Compiling module MAINFSM
+# -- Compiling module clkdiv
+# -- Compiling module MIN_SEC_COUNTER
+# -- Compiling module serielload5
+# -- Compiling module STOPWATCH
+# -- Compiling module STOPWATCH_TB
+# -- Compiling module mux2x1
+# -- Compiling module Todisplay
+# -- Compiling module logicblockof5d1
+# -- Compiling module logicblockof5d2
+# -- Compiling module UPTO5C
+# -- Compiling module logicblockof9d1
+# -- Compiling module logicblockof9d2
+# -- Compiling module logicblockof9d3
+# -- Compiling module UPTO9C
+# 
+# Top level modules:
+# 	STOPWATCH_TB
+# End time: 19:12:21 on Jan 06,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.STOPWATCH_TB
+# vsim work.STOPWATCH_TB 
+# Start time: 19:12:29 on Jan 06,2022
+# Loading sv_std.std
+# Loading work.STOPWATCH_TB
+# Loading work.STOPWATCH
+# Loading work.clkdiv
+# Loading work.MAINFSM
+# Loading work.MIN_SEC_COUNTER
+# Loading work.ANDGCLK
+# Loading work.d_ff
+# Loading work.UPTO9C
+# Loading work.logicblockof9d1
+# Loading work.logicblockof9d2
+# Loading work.logicblockof9d3
+# Loading work.UPTO5C
+# Loading work.logicblockof5d1
+# Loading work.logicblockof5d2
+# Loading work.serielload5
+# Loading work.ORGCLK
+# Loading work.Todisplay
+# Loading work.mux2x1
+# Loading work.disp_hex_mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'A1'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/A1 File: D:/try/STOPWATCH/MIN_SEC_COUNTER.sv Line: 6
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/MIN_SEC_COUNTER.sv(6): [TFMPC] - Missing connection for port 'clk'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DFF1'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/A1/DFF1 File: D:/try/STOPWATCH/GATTEDCLOCKS.sv Line: 4
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/GATTEDCLOCKS.sv(4): [TFMPC] - Missing connection for port 'qbar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SEC_ONES'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/SEC_ONES File: D:/try/STOPWATCH/MIN_SEC_COUNTER.sv Line: 8
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/MIN_SEC_COUNTER.sv(8): [TFMPC] - Missing connection for port 'Qbar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'd0'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/d0 File: D:/try/STOPWATCH/MIN_SEC_COUNTER.sv Line: 9
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/MIN_SEC_COUNTER.sv(9): [TFMPC] - Missing connection for port 'qbar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SEC_TENS'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/SEC_TENS File: D:/try/STOPWATCH/MIN_SEC_COUNTER.sv Line: 12
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/MIN_SEC_COUNTER.sv(12): [TFMPC] - Missing connection for port 'Qbar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'd1'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/d1 File: D:/try/STOPWATCH/MIN_SEC_COUNTER.sv Line: 13
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/MIN_SEC_COUNTER.sv(13): [TFMPC] - Missing connection for port 'qbar'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'd'. The port definition is at: D:/try/STOPWATCH/D_flip_flop.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/load5min/d0 File: D:/try/STOPWATCH/SerialLoad5.sv Line: 4
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'g1'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/g1 File: D:/try/STOPWATCH/MIN_SEC_COUNTER.sv Line: 16
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/MIN_SEC_COUNTER.sv(16): [TFMPC] - Missing connection for port 'clk'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DFF1'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/g1/DFF1 File: D:/try/STOPWATCH/GATTEDCLOCKS.sv Line: 10
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/GATTEDCLOCKS.sv(10): [TFMPC] - Missing connection for port 'qbar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'MIN_ONES'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/MIN_ONES File: D:/try/STOPWATCH/MIN_SEC_COUNTER.sv Line: 19
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/MIN_SEC_COUNTER.sv(19): [TFMPC] - Missing connection for port 'Qbar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'd2'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/d2 File: D:/try/STOPWATCH/MIN_SEC_COUNTER.sv Line: 20
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/MIN_SEC_COUNTER.sv(20): [TFMPC] - Missing connection for port 'qbar'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'MIN_TENS'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/MYCLKCOUNT/MIN_TENS File: D:/try/STOPWATCH/MIN_SEC_COUNTER.sv Line: 22
+# ** Warning: (vsim-3722) D:/try/STOPWATCH/MIN_SEC_COUNTER.sv(22): [TFMPC] - Missing connection for port 'Qbar'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'an'. The port definition is at: D:/try/STOPWATCH/Disp_hex_mux.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/finaldisplay File: D:/try/STOPWATCH/STOPWATCH.sv Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'sseg'. The port definition is at: D:/try/STOPWATCH/Disp_hex_mux.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /STOPWATCH_TB/teststopwatch/finaldisplay File: D:/try/STOPWATCH/STOPWATCH.sv Line: 17
+add wave -position insertpoint  \
+sim:/STOPWATCH_TB/SEG7 \
+sim:/STOPWATCH_TB/MS \
+sim:/STOPWATCH_TB/MR \
+sim:/STOPWATCH_TB/MM \
+sim:/STOPWATCH_TB/ML \
+sim:/STOPWATCH_TB/MCLK \
+sim:/STOPWATCH_TB/ENSEG
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+# Break key hit
+# Break in Module STOPWATCH_TB at D:/try/STOPWATCH/STOPWATCH_TB.sv line 7
+# End time: 19:23:11 on Jan 06,2022, Elapsed time: 0:10:42
+# Errors: 0, Warnings: 25

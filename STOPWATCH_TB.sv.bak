@@ -1,0 +1,67 @@
+module TrafficLight_tb;
+logic MCLK,MR,ML,MS,MM;
+wire [7:0] 7SEG,
+wire [3:0] ENSEG);
+
+STOPWATCH teststopwatch( MCLK,MR,ML,MS,MM,7SEG,ENSEG);
+always #5 MCLK= ~MCLK;
+
+initial begin
+MCLK= 0;   
+MR=1;
+ML=0;
+MS=0;
+MM=0;
+#100 
+MR=0;
+ML=0;
+MS=1;
+MM=0;
+#10000
+MR=0;
+ML=0;
+MS=1;
+MM=1;
+#10000
+MR=1;
+ML=0;
+MS=0;
+MM=0;
+#10000
+MR=0;
+ML=0;
+MS=1;
+MM=0;
+#10000
+MR=1;
+ML=0;
+MS=0;
+MM=0;
+#10000
+MR=0;
+ML=0;
+MS=0;
+MM=1;
+#10000
+MR=0;
+ML=0;
+MS=1;
+MM=1;
+#10000
+MR=0;
+ML=0;
+MS=0;
+MM=1;
+#10000
+MR=0;
+ML=1;
+MS=0;
+MM=1;
+#10000
+MR=0;
+ML=0;
+MS=0;
+MM=1;
+#10000
+ end
+endmodule 

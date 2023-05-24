@@ -1,0 +1,13 @@
+module d_ff(
+ input d,
+ input rstn,
+ input clk,
+ output logic q,
+ output logic qbar);
+assign qbar = ~q;
+always_ff @(posedge clk or posedge rstn)
+ if (rstn)
+ q <= 0;
+ else
+ q <= d;
+endmodule

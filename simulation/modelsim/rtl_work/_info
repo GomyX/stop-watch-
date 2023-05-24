@@ -1,0 +1,495 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/try/STOPWATCH/simulation/modelsim
+vANDGCLK
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1641489140
+!i10b 1
+!s100 7NJ5bK73c2M`gF?^jL5;50
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IelQgTH3b9l?6QZW`hcAOI2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1641483674
+Z6 8D:/try/STOPWATCH/GATTEDCLOCKS.sv
+Z7 FD:/try/STOPWATCH/GATTEDCLOCKS.sv
+!i122 10
+L0 1 6
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1641489140.000000
+!s107 D:/try/STOPWATCH/UPTO9COUNT.sv|D:/try/STOPWATCH/UPTO5COUNT.SV|D:/try/STOPWATCH/UPTO5C.sv|D:/try/STOPWATCH/ToDisplay.sv|D:/try/STOPWATCH/STOPWATCH_TB.sv|D:/try/STOPWATCH/STOPWATCH.sv|D:/try/STOPWATCH/SerialLoad5.sv|D:/try/STOPWATCH/modulesinstopwatch.sv|D:/try/STOPWATCH/MIN_SEC_COUNTER.sv|D:/try/STOPWATCH/MAINFSM.sv|D:/try/STOPWATCH/GATTEDCLOCKS.sv|D:/try/STOPWATCH/Disp_hex_mux.sv|D:/try/STOPWATCH/D_flip_flop.sv|
+Z10 !s90 -reportprogress|300|-work|work|D:/try/STOPWATCH/D_flip_flop.sv|D:/try/STOPWATCH/Disp_hex_mux.sv|D:/try/STOPWATCH/GATTEDCLOCKS.sv|D:/try/STOPWATCH/MAINFSM.sv|D:/try/STOPWATCH/MIN_SEC_COUNTER.sv|D:/try/STOPWATCH/modulesinstopwatch.sv|D:/try/STOPWATCH/SerialLoad5.sv|D:/try/STOPWATCH/STOPWATCH.sv|D:/try/STOPWATCH/STOPWATCH_TB.sv|D:/try/STOPWATCH/ToDisplay.sv|D:/try/STOPWATCH/UPTO5C.sv|D:/try/STOPWATCH/UPTO5COUNT.SV|D:/try/STOPWATCH/UPTO9COUNT.sv|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@n@d@g@c@l@k
+vclkdiv
+R1
+R2
+!i10b 1
+!s100 UKGXlO3JF3b1AdmUNA9Zd2
+R3
+I9]C6PdVi78DlS6EB@d9<j0
+R4
+S1
+R0
+Z13 w1641488945
+Z14 8D:/try/STOPWATCH/MAINFSM.sv
+Z15 FD:/try/STOPWATCH/MAINFSM.sv
+!i122 10
+L0 137 24
+R8
+r1
+!s85 0
+31
+R9
+Z16 !s107 D:/try/STOPWATCH/UPTO9COUNT.sv|D:/try/STOPWATCH/UPTO5COUNT.SV|D:/try/STOPWATCH/UPTO5C.sv|D:/try/STOPWATCH/ToDisplay.sv|D:/try/STOPWATCH/STOPWATCH_TB.sv|D:/try/STOPWATCH/STOPWATCH.sv|D:/try/STOPWATCH/SerialLoad5.sv|D:/try/STOPWATCH/modulesinstopwatch.sv|D:/try/STOPWATCH/MIN_SEC_COUNTER.sv|D:/try/STOPWATCH/MAINFSM.sv|D:/try/STOPWATCH/GATTEDCLOCKS.sv|D:/try/STOPWATCH/Disp_hex_mux.sv|D:/try/STOPWATCH/D_flip_flop.sv|
+R10
+!i113 1
+R11
+R12
+vd_ff
+R1
+R2
+!i10b 1
+!s100 1JT@G;9QjDobP[HMl>6eW1
+R3
+I:XKaPVGRRz69dZj0Jn`z]3
+R4
+S1
+R0
+w1641480376
+8D:/try/STOPWATCH/D_flip_flop.sv
+FD:/try/STOPWATCH/D_flip_flop.sv
+!i122 10
+L0 1 13
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+vdisp_hex_mux
+R1
+R2
+!i10b 1
+!s100 EBAa4YBz^mVnlIecLKBDR1
+R3
+IfNoFI>dGZX:dBNoWlK1]M1
+R4
+S1
+R0
+w1641482100
+8D:/try/STOPWATCH/Disp_hex_mux.sv
+FD:/try/STOPWATCH/Disp_hex_mux.sv
+!i122 10
+L0 1 79
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+vlogicblockof5d1
+R1
+R2
+!i10b 1
+!s100 dMYbOiOGnjmg[B2ZIGZj61
+R3
+IK?M]a9l?jI4SjFnKKhBjM3
+R4
+S1
+R0
+Z17 w1641488548
+Z18 8D:/try/STOPWATCH/UPTO5C.sv
+Z19 FD:/try/STOPWATCH/UPTO5C.sv
+!i122 10
+L0 1 12
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+vlogicblockof5d2
+R1
+R2
+!i10b 1
+!s100 JGFQ<7iJNzI5]Vdj3LBCT2
+R3
+ICKJHO9k5?@41MSb:lVUA73
+R4
+S1
+R0
+R17
+R18
+R19
+!i122 10
+L0 14 13
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+vlogicblockof9d1
+R1
+Z20 !s110 1641489141
+!i10b 1
+!s100 RCKd=F7?QcfaE1M]Ni??m1
+R3
+IDUk8_HidgeQCa<5zWL7`Y1
+R4
+S1
+R0
+Z21 w1641480213
+Z22 8D:/try/STOPWATCH/UPTO9COUNT.sv
+Z23 FD:/try/STOPWATCH/UPTO9COUNT.sv
+!i122 10
+L0 1 14
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+vlogicblockof9d2
+R1
+R20
+!i10b 1
+!s100 [2J5^9ne``M^GAR;A@WNO1
+R3
+I^][PLi]@<VFZAzSBoT93f0
+R4
+S1
+R0
+R21
+R22
+R23
+!i122 10
+L0 16 14
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+vlogicblockof9d3
+R1
+R20
+!i10b 1
+!s100 3EN23i[m:S4dXaO:e6bBS0
+R3
+IcWCa]l>S;Ofj9C:fVhX`S2
+R4
+S1
+R0
+R21
+R22
+R23
+!i122 10
+L0 31 15
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+vMAINFSM
+R1
+R2
+!i10b 1
+!s100 e5ROPN1=Q7T[AK`le[ACa1
+R3
+IaPRkHB[l9n_AD^Tc6D90S0
+R4
+S1
+R0
+R13
+R14
+R15
+!i122 10
+L0 1 136
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+n@m@a@i@n@f@s@m
+vMIN_SEC_COUNTER
+R1
+R2
+!i10b 1
+!s100 h8`lgYHFN@1L_MPD:kBDZ2
+R3
+I<<?<H26UdLhBZmYdP1IUN0
+R4
+S1
+R0
+w1641479615
+8D:/try/STOPWATCH/MIN_SEC_COUNTER.sv
+FD:/try/STOPWATCH/MIN_SEC_COUNTER.sv
+!i122 10
+L0 1 23
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+n@m@i@n_@s@e@c_@c@o@u@n@t@e@r
+vmux2x1
+R1
+R2
+!i10b 1
+!s100 o=8ed`agbZW^;FTNIPaHN3
+R3
+I95AQzPElKGX^8oW7jGKLH3
+R4
+S1
+R0
+Z24 w1641483906
+Z25 8D:/try/STOPWATCH/ToDisplay.sv
+Z26 FD:/try/STOPWATCH/ToDisplay.sv
+!i122 10
+L0 2 7
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+vORGCLK
+R1
+R2
+!i10b 1
+!s100 0o4:?i>QFnl7Aj6[OaABR1
+R3
+I6FV?R_mU[kAdYniB_7USl0
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 10
+L0 8 5
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+n@o@r@g@c@l@k
+vserielload5
+R1
+R2
+!i10b 1
+!s100 E_`FbblaXf[]Kf8`RGI303
+R3
+I8D:D:jOoe[;Il6BcI0ofH3
+R4
+S1
+R0
+w1641480262
+8D:/try/STOPWATCH/SerialLoad5.sv
+FD:/try/STOPWATCH/SerialLoad5.sv
+!i122 10
+L0 1 15
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+vSTOPWATCH
+R1
+R2
+!i10b 1
+!s100 ?A[;f5FDOBH6OQ0Xe<B=l1
+R3
+I<UAMo3o3]R[0@E7P5cm7^0
+R4
+S1
+R0
+w1641483670
+8D:/try/STOPWATCH/STOPWATCH.sv
+FD:/try/STOPWATCH/STOPWATCH.sv
+!i122 10
+L0 1 18
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+n@s@t@o@p@w@a@t@c@h
+vSTOPWATCH_TB
+R1
+R2
+!i10b 1
+!s100 MW@j08L=o?NFg4fe1[ba72
+R3
+I?J<EjI38G]7imAI81B;[O1
+R4
+S1
+R0
+w1641488947
+8D:/try/STOPWATCH/STOPWATCH_TB.sv
+FD:/try/STOPWATCH/STOPWATCH_TB.sv
+!i122 10
+L0 1 67
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+n@s@t@o@p@w@a@t@c@h_@t@b
+vTodisplay
+R1
+R2
+!i10b 1
+!s100 7_2zSaObU7L9SHTP]kA:c2
+R3
+I9h]D6nH9DAYBKYBZ@fb7J3
+R4
+S1
+R0
+R24
+R25
+R26
+!i122 10
+L0 10 25
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+n@todisplay
+vUPTO5C
+R1
+R2
+!i10b 1
+!s100 1L0TM7SIH8f>^aYCNS>@U1
+R3
+IGUV?Z9zXaXej?VB84_Lfj0
+R4
+S1
+R0
+R17
+R18
+R19
+!i122 10
+L0 28 13
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+n@u@p@t@o5@c
+vUPTO9C
+R1
+R20
+!i10b 1
+!s100 jGaeCz:Li61HEck[<R[>z3
+R3
+IWTOYPmQ1KYB0FQ:8>3[@f0
+R4
+S1
+R0
+R21
+R22
+R23
+!i122 10
+L0 47 13
+R8
+r1
+!s85 0
+31
+R9
+R16
+R10
+!i113 1
+R11
+R12
+n@u@p@t@o9@c

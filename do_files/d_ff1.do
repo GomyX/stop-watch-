@@ -1,0 +1,30 @@
+vlog -reportprogress 300 -work work C:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/D_flip_flop.sv
+vsim -gui work.d_ff1
+add wave -position insertpoint  \
+sim:/d_ff1/d \
+sim:/d_ff1/set \
+sim:/d_ff1/rest \
+sim:/d_ff1/clk \
+sim:/d_ff1/q \
+sim:/d_ff1/qbar \
+sim:/d_ff1/restb \
+sim:/d_ff1/t1 \
+sim:/d_ff1/t2 \
+sim:/d_ff1/setb \
+sim:/d_ff1/t4 \
+sim:/d_ff1/t3
+force -freeze sim:/d_ff1/d 1 0
+force -freeze sim:/d_ff1/set 0 0
+force -freeze sim:/d_ff1/rest 0 0
+force -freeze sim:/d_ff1/clk 1 0, 0 {25 ps} -r 50
+run
+force -freeze sim:/d_ff1/set 1 0
+run
+force -freeze sim:/d_ff1/rest 1 1, 0 {51 ps} -r 100
+run
+force -freeze sim:/d_ff1/rest 0 0
+run
+force -freeze sim:/d_ff1/set 0 0
+force -freeze sim:/d_ff1/rest 1 0
+run
+

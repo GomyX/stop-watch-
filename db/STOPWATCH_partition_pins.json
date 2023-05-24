@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DIGIT7SEG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DIGIT7SEG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DIGIT7SEG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DIGIT7SEG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ENABLE7SEG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ENABLE7SEG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ENABLE7SEG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ENABLE7SEG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MAINCLOCK",
+					"strict" : false
+				},
+				{
+					"name" : "MAINPUSHR",
+					"strict" : false
+				},
+				{
+					"name" : "MAINDIP1S",
+					"strict" : false
+				},
+				{
+					"name" : "MAINPUSHL",
+					"strict" : false
+				},
+				{
+					"name" : "MAINDIP2M",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

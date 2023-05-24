@@ -1,0 +1,137 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/do_files
+vd_ff
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1641511768
+!i10b 1
+!s100 DcBgofJMn@Wfk22_Jh?5;3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IN:_WQEW=ck1UN<9l5YPoG0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1641490991
+Z6 8C:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/D_flip_flop.sv
+Z7 FC:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/D_flip_flop.sv
+!i122 4
+L0 2 8
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1641511768.000000
+Z10 !s107 C:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/D_flip_flop.sv|
+Z11 !s90 -reportprogress|300|-work|work|C:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/D_flip_flop.sv|
+!i113 1
+Z12 o-work work
+Z13 tCvgOpt 0
+vd_ff1
+R1
+R2
+!i10b 1
+!s100 _Ub4TmO2j:8??NG;28:zX2
+R3
+I:_<CBW?MB`F7z9Bh;D`N_0
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 4
+L0 11 13
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vlogicblockof5d1
+R1
+Z14 !s110 1641513057
+!i10b 1
+!s100 dMYbOiOGnjmg[B2ZIGZj61
+R3
+I8PFgYNoGWCYb=L;AaMfFK2
+R4
+S1
+R0
+Z15 w1641490383
+Z16 8C:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/UPTO5C.sv
+Z17 FC:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/UPTO5C.sv
+!i122 7
+L0 1 12
+R8
+r1
+!s85 0
+31
+Z18 !s108 1641513057.000000
+!s107 C:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/UPTO5C.sv|
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/UPTO5C.sv|
+!i113 1
+R12
+R13
+vlogicblockof5d2
+R1
+R14
+!i10b 1
+!s100 JGFQ<7iJNzI5]Vdj3LBCT2
+R3
+IjH[Agncc;Uo@d7jc`>KW12
+R4
+S1
+R0
+R15
+R16
+R17
+!i122 7
+L0 14 13
+R8
+r1
+!s85 0
+31
+R18
+Z20 !s107 C:/Users/mahmo/OneDrive/Desktop/STOPWATCH/STOPWATCH/UPTO5C.sv|
+R19
+!i113 1
+R12
+R13
+vUPTO5C
+R1
+R14
+!i10b 1
+!s100 1L0TM7SIH8f>^aYCNS>@U1
+R3
+I=8XBKFVnI@G3ZTTjTa]CY3
+R4
+S1
+R0
+R15
+R16
+R17
+!i122 7
+L0 28 13
+R8
+r1
+!s85 0
+31
+R18
+R20
+R19
+!i113 1
+R12
+R13
+n@u@p@t@o5@c
